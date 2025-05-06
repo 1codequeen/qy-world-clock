@@ -42,20 +42,11 @@ select {
 .city:last-child {
   border: none;
 }
-.sydney-date {
+.date {
   opacity: 0.7;
 }
 
-.sydney-time {
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.paris-date {
-  opacity: 0.7;
-}
-
-.paris-time {
+.time {
   font-size: 48px;
   font-weight: bold;
 }

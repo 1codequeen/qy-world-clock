@@ -12,26 +12,28 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Tokyo</option>
-        <option value="">hawaii</option>
-        <option value="">Swaziland</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="US/Hawaii">hawaii</option>
+        <option value="Europe/Budapest">Budapest</option>
       </select>
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney 🇦🇺</h2>
-          <div class="sydney-date">August 15th 2022</div>
+      <div id="cities">
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="sydney-time">1:48:15 <small>AM</small></div>
-      </div>
 
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris 🇫🇷</h2>
-          <div class="paris-date">August 15th 2022</div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="paris-time">1:48:15 <small>AM</small></div>
       </div>
     </div>
     <footer>
